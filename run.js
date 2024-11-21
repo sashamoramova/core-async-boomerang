@@ -10,3 +10,8 @@ const game = new Game({
 
 // Запуск игры.
 game.play();
+
+
+
+console.log('test.line');
+
