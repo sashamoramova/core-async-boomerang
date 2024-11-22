@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 
 
 class View {
-
   
   async newNickname() {
     const answer = await inquirer.default.prompt({
@@ -40,7 +39,8 @@ class View {
   
     render(track, score) {
 
-    const yourTeamName = 'EL LOCO';
+    const yourTeamName = 'Bobri';
+
 
     // Тут всё рисуем.
     console.clear();

@@ -62,7 +62,9 @@ class Hero {
       } else {
         this.boomerang.position = -1;
       }
+
     }, 50);
+
   }
 
   die() {
