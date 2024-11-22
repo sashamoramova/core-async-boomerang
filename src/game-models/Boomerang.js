@@ -5,21 +5,29 @@
 class Boomerang {
   constructor() {
     this.skin = '🌀';
-    this.position = 0;
+    this.position = -1;
+    this.direction = true;
   }
 
   fly() {
-    this.moveRight();
-    this.moveLeft();
+    if (this.direction) {
+      this.moveRight();
+    } else {
+      this.moveLeft();
+    }
   }
 
   moveLeft() {
-    // Идём влево.
+    // if (this.position > -1) {
+    
+    // }
     this.position -= 1;
+    // Идём влево.
   }
 
   moveRight() {
     // Идём вправо.
+
     this.position += 1;
   }
 }
