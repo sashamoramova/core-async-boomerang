@@ -2,7 +2,7 @@
 
 class View {
   render() {
-    const yourTeamName = 'Elbrus';
+    const yourTeamName = 'Bobri';
 
     // Тут всё рисуем.
     console.clear();
