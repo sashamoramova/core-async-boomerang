@@ -13,5 +13,4 @@ game.play();
 
 
 
-console.log('test.line');
 

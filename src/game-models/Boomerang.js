@@ -33,3 +33,4 @@ class Boomerang {
 }
 
 module.exports = Boomerang;
+
